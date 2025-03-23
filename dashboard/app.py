@@ -1020,6 +1020,15 @@ app.index_string = '''
 </html>
 '''
 
-# Run the app
+# Run the app (Local)
+# if __name__ == '__main__':
+#     app.run_server(debug=True, port=8050)
+
+# server = app.server  # Expose the server (Render)
+
+# if __name__ == '__main__':
+#     app.run_server(debug=False)
+
+# AWS Runner
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8050)
+    app.run_server(host='0.0.0.0', port=8050, debug=False)
