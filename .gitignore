@@ -28,7 +28,7 @@ venv/
 ENV/
 
 # Data files
-data/*.csv
+#data/*.csv
 
 # IDE files
 .idea/
