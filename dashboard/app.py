@@ -16,7 +16,7 @@ server = app.server
 # Load the data
 def load_data():
     # Find the most recent data files
-    data_dir = 'data/'
+    data_dir = '../data/'
 
     # Load product data
     products_files = sorted([f for f in os.listdir(data_dir) if f.startswith('products_')])
