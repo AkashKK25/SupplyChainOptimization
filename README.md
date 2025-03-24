@@ -14,6 +14,8 @@ This project implements a comprehensive supply chain optimization system for sma
 - **Inventory Optimization**: Calculates optimal order quantities, reorder points, and safety stock using EOQ and other models
 - **Interactive Dashboard**: Visualizes insights and recommendations through an intuitive Dash web application
 
+![Dashboard GIF](docs/images/supply_chain_dashboard.gif)
+
 ## Getting Started
 
 ### Prerequisites
